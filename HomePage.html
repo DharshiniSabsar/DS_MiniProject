@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> HomePage | Dharshini's Portfolio</title>
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <script src="https://kit.fontawesome.com/28602af15f.js" crossorigin="anonymous"></script>
+        <style>
+            .dark-mode {
+                background-color: black;
+                color: white;
+            }
+            a:visited {color:white; }
+            a:hover  {color:black;}
+            a:active  { color:plum;}
+            a.secondary:visited{color:rgb(241, 236, 236)}
+            a.secondary:hover{color:rgb(191, 191, 196)}
+            a.secondary:active{color:rgb(154, 150, 150)}
+            a.secondary{
+                background-color: #49494e;
+                padding: 14px 25px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+            }
+            p.PF{
+                position: relative;
+                top: -25px;
+                display: inline;
+                width: 50px;
+                height: 100px;
+                margin: -5px;
+            }
+            div.nav-con {
+                position: sticky;
+                top: 0;
+            }
+            span.a{
+                position: relative;
+                top: -115px;
+                display: inline;
+                width: 100px;
+                height: 100px;
+                padding: 5px;
+            }
+            span.p{
+                position: relative;
+                top: -117px;
+                display: inline;
+            }
+            span.b{
+                position: relative;
+                top: -117px;
+                display: inline;
+            }
+            p.section{
+                position: relative;
+                top: -131px;   
+            }
+            div.container{
+                text-align: center;
+            }
+            ul.UL{
+                display: inline-block;
+                text-align: left;
+                padding-top: 20px;
+                padding-left: 70px;
+                padding-bottom: 20px;
+                padding-right: 70px;
+            }
+            h1.header{
+                border-top: 3px;
+                border-left: 10px;
+                border-right: 10px;
+                border-bottom: 3px;
+                border-style: solid;
+                border-color: rgb(112, 21, 130);
+                padding: 25px;
+                margin-top: -10px;
+                margin-left: -10px;
+                margin-right: -8px;
+                margin-bottom: 60px;
+                height: 115px;
+                width: 100%
+                outline-style: solid;
+                outline-width: 5px;
+                font-size: 40px;
+                font-family: "Lucida Console", "Courier New", monospace;
+            }
+            h1.PF{
+                border-top: 3px;
+                border-left: 10px;
+                border-right: 10px;
+                border-bottom: 3px;
+                border-style: solid;
+                border-color: rgb(112, 21, 130);
+                border-radius: 12px;;
+                padding: 25px;
+                margin-top: 0px;
+                margin-left: 0px;
+                margin-right: 3px;
+                margin-bottom: 60px;
+                height: 115px;
+                outline-color: rgb(224, 208, 239);
+                outline-style: solid;
+                outline-width: 5px;
+                font-size: 40px;
+                font-family: "Lucida Console", "Courier New", monospace;
+            }
+            body{
+                background-image: url(fadedBG.jpg), url(GrayStripes.jpg); 
+                background-repeat: repeat-x;
+                background-position-y: 226px, 1040px; 
+                background-position-x: 205px, 0px; 
+                background-size: 26cm, 27.8cm; 
+            }
+            p.section1{
+                padding-bottom: 20px;
+            }
+
+            h1.first{
+                border-top: 3px;
+                border-left: 55px;
+                border-right: 35px;
+                border-bottom: 3px;
+                border-style: solid;
+                border-color: rgb(33, 45, 136);
+                padding: 25px;
+                margin-top: -63px;
+                margin-left: -35px;
+                margin-right: -5px;
+                margin-bottom: 47px;
+                height: 40px;
+                outline-color: rgb(223, 233, 244);
+                outline-style: solid;
+                outline-width: 5px;
+                font-size: 40px;
+                font-family: "Lucida Console", "Courier New", monospace;
+            }
+            h1.second{
+                border-top: 3px;
+                border-left: 55px;
+                border-right: 35px;
+                border-bottom: 3px;
+                border-style: solid;
+                border-color: rgb(112, 21, 130);
+                padding: 25px;
+                margin-top: 0px;
+                margin-left: -35px;
+                margin-right: -5px;
+                margin-bottom: 60px;
+                height: 115px;
+                outline-color: rgb(240, 218, 247);
+                outline-style: solid;
+                outline-width: 5px;
+                font-size: 40px;
+                font-family: "Lucida Console", "Courier New", monospace;
+            }
+            h1.third{
+                border-top: 3px;
+                border-left: 55px;
+                border-right: 35px;
+                border-bottom: 3px;
+                border-style: solid;
+                border-color: rgb(33, 45, 136);
+                padding: 25px;
+                margin-top: 0px;
+                margin-left: -35px;
+                margin-right: -5px;
+                margin-bottom: 60px;
+                height: 115px;
+                outline-color: rgb(223, 233, 244);
+                outline-style: solid;
+                outline-width: 5px;
+                font-size: 40px;
+                font-family: "Lucida Console", "Courier New", monospace;
+            }
+            footer.footer{
+                margin-top: -83px;
+            }
+            div.sociallinks{
+                position: relative;
+                margin-top: -130px;
+                margin-left: 483px;
+            }
+            div.logo{
+                float: left;
+                padding-left: 50px;
+            }
+            a.logo:visited{color:rgb(255, 255, 255)}
+            a.logo:hover{color:rgb(0, 0, 0)}
+            a.logo:active{color:rgb(255, 255, 255)}
+            p.space{
+                position: relative;
+                margin-top: -80px;  
+            }
+        </style> 
+    </head>
+    <body>
+        <nav class="navigation-container">
+            <div class="nav-con">
+                <h1 class="header" style="background-color:rgb(190, 113, 228); color:white;" align="center"><b>"DarcyEvergreen"</b></h1>
+                <center><span class="a"><a class="header" href="HomePage.html">HOME</a> &nbsp;&nbsp;
+                <a class="header" href="#project">PROJECTS</a> &nbsp;&nbsp;
+                <a class="header" href="#blog">BLOG</a></span></center>
+            </div>
+            <ul class="list-non-bullet nav-pills"></ul>
+        </nav>
+        <figure align="center">
+            <img src="DE.jpg" align="center"
+            ismap usemap="#About Me"
+            alt="Me" height="350" width="350" border="3">
+            <map name="About Me">
+            <area shape="square" coords="0,0,1000,1000" href="About_the_developer.html"><br>
+            </map>	   
+            <br>
+            <figcaption>Click on the image to know about the developer's past!!</figcaption>
+        </figure>
+        <header class="darcy" align="center">
+            <h1 class="img-heading">
+                Dharshini Saravanan - 
+                <span class="heading
+                           "> The Code Runner</span>
+            </h1>
+        </header><br><br><br><br>
+        <section class="images" align="center">
+            <div class="nav-con">
+                <h1 class="PF" style="background-color:rgb(190, 113, 228); color:black;" align="center"><b> What is a Portfolio?</b></h1>
+                <center><span class="a"><p class="PF">A portfolio is a compilation of academic and professional materials that exemplifies the beliefs, skills, qualifications, education, training, and experiences of a candidate.<br> It provides insight into one's personality and work ethic. Choosing the most relevant academic and professional experiences and putting them in an easily understood format will show an employer proof of one's organizational, communication, and tangible career-related skills.</p></span></center>
+            </div>
+        </section>
+        <section class="first" align="center">
+            <div class="container">
+                <h1 class="first" style="background-color:rgba(106, 146, 203, 0.5); color:black;">SkillSet</h1>
+                <p class="section1" style="border-style: double; margin-left:500px; margin-right:500px; color:white; background-color:rgba(0, 0, 0, 0.5);"><br>
+                    I am familiarizing myself with the following:<br></p>
+                    <ul class="UL" style="border-color:white; border-style:double;border-width:3px; color:white; background-color:rgba(0, 0, 0, 0.5);">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Python</li>
+                        <li>C and C++</li>
+                        <li>JavaScript</li>
+                        <li>NodeJS</li>
+                        <li>ReactJS</li>
+                        <li>MySQL</li>
+                        <li>MongoDB</li>
+                        <li>Scratch</li>
+                    </ul>
+                </div>
+        </section><br><br><br><br><br>
+        <section class="second" align="center">
+            <div class="project_container">
+                <a name="project"><h1 class="second" style="background-color:rgba(190, 113, 228, 0.5); color:black;">Projects</h1></a>
+                <p class="section"><b>Click on the button below to access a few of my showcase projects!</b></p></a>
+                <b><span class="p"><a class="secondary" href="">See Projects</a></span></b>
+            </div>
+        </section>
+        <section class="third" align="center">
+            <div class="blog_container">
+                <a name="blog"></a><h1 class="third" style="background-color:rgba(106, 146, 203, 0.5); color:black;">Blog</h1></a>
+                <p class="section"><b>It is my blog through which I express my creative side. Do check it out!</b></p>
+                <b><span class="b"><a class="secondary" href="https://darcyevergreen.blogspot.com/" target="_blank">Visit Blog</a></span></b>
+            </a></div>
+        </section>
+        <center><p class="space"></p><button class="button" onclick="myFunction()">Toggle Mode</button></center>
+        <script>
+            function myFunction() {
+                var element = document.body;
+                element.classList.toggle("dark-mode");
+            }
+        </script><br><br><br><br><br><br><br>
+        <footer class="footer">
+            <h1 class="header" style="background-color:rgb(190, 113, 228); color:white;" align="center"><b>~~Social Links~~</b></h1>
+            <center><span class="logo"><div class="sociallinks"><center>
+                <div class="logo">
+                    <a target="_blank" href="https://www.instagram.com/dharshi.sabsar" class="logo">
+                        <i class="fa-brands fa-square-instagram" style="font-size:50px;"></i>                  
+                    </a>
+                </div>
+                <div class="logo">
+                    <a target="_blank" href="https://github.com/DharshiniSabsar" class="logo">
+                        <i class="fa-brands fa-square-github" style="font-size:50px;"></i>
+                    </a>
+                </div>
+                <div class="logo">
+                    <a target="_blank" href="https://in.linkedin.com/" class="logo">
+                        <i class="fa-brands fa-linkedin" style="font-size:50px;"></i>
+                    </a>
+                </div>
+                <div class="logo">
+                    <a target="_blank" href="mailto:dss.in.uni@gmail.com/" class="logo">
+                        <i class="fa-solid fa-square-envelope" style="font-size:48px; color:white;"></i>
+                    </a>
+                </div>
+            </center></div></span></center>      
+        </footer>
+    </body>
+</html>
